@@ -2,10 +2,6 @@ variable "rg" {
   type = string
 }
 
-variable "vhub" {
-  type = string
-}
-
 variable "region1" {
   type = string
 }

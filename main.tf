@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "terraform-rg"
+  name     = var.rg
   location = "West Europe"
 }
 
